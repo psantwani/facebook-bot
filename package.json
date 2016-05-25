@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Mr. Chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentx09/mrchat.git"
+  },
+  "author": "Piyush Santwani psantwani@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentx09/mrchat/issues"
+  },
+  "homepage": "https://github.com/silentx09/mrchat#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
+}
