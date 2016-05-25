@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Mr. Chat",
   "main": "app.js",
-  "scripts": {"test": "mocha"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silentx09/mrchat.git"
