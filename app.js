@@ -28,8 +28,7 @@ app.post('/webhook/', function (req, res) {
     allSenders[sender] = true;
     if (event.message && event.message.text) {
       text = event.message.text;
-      // Handle a text message from this sender
-      console.log(text);
+      // Handle a text message from this sender      
       console.log(allSenders);
       Object.keys(allSenders).forEach(function(senderId){
       	sendTextMessage(senderId, text);
